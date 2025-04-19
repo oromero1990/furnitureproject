@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(253, 253, 253);
+  font-family: sans-serif;
+}
+
+.product-card {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+button {
+  background-color: rgb(238, 54, 41);
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffb347;
+  color: 333;
+}
+
+.current-price {
+  color: green;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.old-price {
+  color: #999;
+  margin-left: 10px;
+  font-size: 1rem;
+  text-decoration: line-through;
+}
